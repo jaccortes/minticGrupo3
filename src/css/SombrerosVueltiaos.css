@@ -1,9 +1,12 @@
+/*flotante de imagen a la derecha*/
 .imagennoticiader{
 	float:right;
 }
+/*flotante de imagen a la inquierda*/
 .imagennoticiaizq{
 	float:left;
 }
+/*imagen del header*/
 .imagendelheader {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/sombrero0-1280x720.jpg);
   height: 100%;
@@ -12,20 +15,24 @@
   background-size: cover;
   position: relative;
 }
+/*titulo secciones*/
 .h1notiequi
 {
   color: white;
   font-size: 40px;
 }
+/*titulo encabezado de pagina*/
 .h1deheader
 {
    font-size:60px;
 }
+/*cuerpo de la pagina*/
 body {
   font-family: Arial, Helvetica, sans-serif;
     background-color: #35221F;
 	min-width:1200px;
 }
+/*encabezado de la pagina*/
 header {
   background-color: #35221F;
   padding: 30px;
@@ -33,35 +40,42 @@ header {
   font-size: 35px;
   color: white;
 }
+/*fondo seccion servicios*/
 .backg_section_servicios
 {
 	background:#9CE5DD;
 }
+/*fondo seccion noticias*/
 .backg_section_noticias
 {
 	background:purple;
 }
+/*fondo seccion equipo*/
 .backg_section_equipo
 {
 	background:#7696C1;
 }
+/*fondo seccion footer*/
 .backg_section_footer
 {
 	background:#6A4949;
 	font-size: 35px;
 	color: white;
 }
+/*centrar info en secciones*/
 .backg_section_equipo,
 .backg_section_noticias,
 .backg_section_servicios
 {
 	text-align: center;		
 }
+/*contenedor flotante servicios*/
 .container {
   position: relative;
 	display: inline-block;
 		width: 33%;
 }
+/*contenedor flotante noticias*/
 .containernoti {
   position: relative;
 	display: inline-block;
@@ -69,18 +83,20 @@ header {
 		border:2px solid white;
 		  text-align: center;	  
 }
+/*contenedor flotante separador*/
 .containernotisepara {
 	position: relative;
 	width: 20px;
 	display: inline-block;
 	text-align: center;	  
 }
-
+/*imagen en linea o bloque*/
 .image {
   height: auto;
 	width: 100%;
 	display: inline-block;  
 }
+/*efecto slide sobre imagen*/
 .overlay {
   position: absolute;
   top: 0;
@@ -93,26 +109,31 @@ header {
   transition: .5s ease;
   background-color: #008CBA;
 }
+/*efecto slide contenedor*/
 .container:hover .overlay {
   opacity: 1;
 }
+/*div flotante columnas*/
 .cols {
 	height: 220px;
 	display: inline-block;
 	  text-align: center;
 }
+/*div flotante columnas*/
 .cols2 {
 	height: 220px;
 	display: inline-block;
 	  text-align: center;
 	   padding: 20px;
 }
+/*div flotante columnas*/
 .cols3 {
 	height: 60px;
 	display: inline-block;
 	  text-align: center;
 	   padding: 20px;
 }
+/*formato de texto general*/
 .texto {
   color: white;
   font-size: 20px;
@@ -124,14 +145,17 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/*formato de texto noticias*/
 .textonoti {
   font-size: 20px;
   color: white;
 }
+/*letra capital*/
 .capitaletra{
 	font-size: 40px;
 	  color: white;
 }
+/*menu lista*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -139,9 +163,11 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
+/*menu*/
 li {
   float: left;
 }
+/*menu opcion*/
 li a {
   font-size: 26px;
   display: block;
@@ -150,9 +176,11 @@ li a {
   padding: 14px 32px;
   text-decoration: none;
 }
+/*menu*/
 li a:hover:not(.active) {
   background-color: #666;
 }
+/*menu activo*/
 .active {
   background-color: #04AA6D;
 }
