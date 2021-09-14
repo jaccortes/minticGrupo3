@@ -41,31 +41,31 @@ header {
   color: white;
 }
 /*fondo seccion servicios*/
-.backg_section_servicios
+.services-section
 {
 	background:#9CE5DD;
 }
 /*fondo seccion noticias*/
-.backg_section_noticias
+.news-section
 {
 	background:purple;
 }
 /*fondo seccion equipo*/
-.backg_section_equipo
+.team-section
 {
 	background:#7696C1;
 }
 /*fondo seccion footer*/
-.backg_section_footer
+.footer-section
 {
 	background:#6A4949;
 	font-size: 35px;
 	color: white;
 }
 /*centrar info en secciones*/
-.backg_section_equipo,
-.backg_section_noticias,
-.backg_section_servicios
+.team-section,
+.news-section,
+.services-section
 {
 	text-align: center;		
 }

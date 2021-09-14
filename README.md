@@ -1,20 +1,43 @@
 # Proyecto final Sprint I
 
-Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.
+## Enunciado 1
 
-Para iniciar con el desarrollo del sitio web, los estudiantes deberán definir previamente aspectos como ancho del sitio (mínimo 1200px), la información a presentar en el sitio web, diseñar un mockup, borrador o bosquejo, también descargar, diseñar o crear los recursos a utilizar como imágenes, iconos, logos, entre otros y finalmente asignar responsable a cada sección.
+El equipo de iMaster requiere construir una página web para un nuevo proyecto y usted es la persona encargada de realizar el trabajo, ellos ya cuentan con una base sobre la cual trabajar, pero requieren hacer algunos ajustes que el proyecto les solicita.
 
-El proyecto, deberá manejarse versionado en un repositorio remoto en github, en el que los diferentes miembros del equipo deben tener acceso, no se permite el push directo a las ramas Dev o Master.
+Las observaciones que recibieron son las siguientes:
 
-## Secciones
+-	La página web solo debe contar con un título principal h1.
+-	El contenido principal del sitio debe estar contenido dentro de una etiqueta main.
+-	El sitio debe contar con una etiqueta header que contiene el título principal y el menú de navegación.
+-	El menú de navegación debe estar definido en una etiqueta nav.
+-	El pie de página del sitio debe estar contenido dentro de una etiqueta footer.
+-	El pie de página debe contar con una clase footer-section.
+-	La sección de noticias, equipo y servicios deben estar cada una contenida dentro de una etiqueta section y para diferenciarlas deben contar con un identificador o id único llamado news, team, services respectivamente.
+-	La sección de noticias, equipo y servicios deben contar con las clases news-section, team-section y services-section respectivamente. 
 
-- Sección superior, cabecera o header: esta sección deberá contar con el menú de navegación a tres páginas internas del sitio web y su respectivo enlace al inicio. Debe contar con una imagen que ocupe el ancho del sitio.
-  El menú debe de estar en un tag `<nav></nav>`.
-- Sección de servicios: aquí los estudiantes deberán dividir en ancho del sitio en 3 partes y en cada parte se deberá incluir un servicio. Cada servicio debe contar con una breve descripción, un logo, ícono o imagen que lo identifique y un enlace al detalle de los servicios. El elemento donde están los servicios debe de tener un `id=”services”`
-- Sección de noticias: El estudiante encargado de la sección de noticias, deberá dividir el ancho del sitio web en 2 filas y dos columnas para presentar 4 noticias. Cada noticia debe contar con un resumen, una imagen y un enlace a leer la noticia completa.
-  El elemento donde están los servicios debe de tener un `id=”news”`
 
-- Sección de equipo: El estudiante deberá dividir el ancho del sitio entre el número de participantes del equipo e incluir junto con cada uno una foto o imagen, el nombre y algún dato como la institución educativa, edad, pasatiempo, entre otros.
-  El elemento donde están los servicios debe de tener un `id=”team”`
+La interventoría del proyecto le ha suministrado al equipo unas ayudas para poder cumplir con todo lo requerido y le ha enviado las siguientes instrucciones:
 
-- Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+1.	Debe contar con Node.js instalado en su equipo, para ello solo requiere ir al sitio oficial (https://nodejs.org/es/) y seleccionar el paquete que se ajuste a su máquina. La interventoría recomendó utilizar la versión LTS.
+2.	Verifique la instalación de Node.js escribiendo en su terminal node -v.
+3.	Una vez todo correcto, puede descomprimir el paquete de código que se le ha enviado y almacenarlo en una carpeta nombrada con su documento de identidad, todos los documentos son necesarios, no olvide incluir ninguno.
+4.	Con la carpeta nombrada correctamente, abra el proyecto con el editor de código de su preferencia, debe visualizar una estructura como la siguiente:
+ 
+
+5.	Su tarea es modificar el archivo llamado index.html ubicado dentro de la carpeta src hasta cumplir con todos los requerimientos planteados.
+6.	La interventoría recalca que únicamente debe modificar el archivo indicado, cualquier modificación en otro archivo podría hacer que el proyecto sea rechazado y si el proyecto es rechazado, usted podría perder el trabajo.
+7.	Ahora ya esta listo para instalar las ayudas entregadas por la interventoría, para ello debe abrir una terminal dentro de la carpeta del proyecto y ejecutar el comando npm install.
+8.	Si todo esta correcto, deberá tener una nueva carpeta llamada “node_modules” en la estructura como la siguiente:
+
+ 
+
+9.	La interventoría indica que cuando crea que ya cumple con todos los puntos solicitados, puede ejecutar el validador que provee, para hacerlo debe abrir una terminal dentro de la carpeta del proyecto y ejecutar el comando npm run test, si todo esta correcto, debe obtener una salida como la siguiente:
+ 
+
+10.	Un resultado excelente, 14 de 14, el proyecto esta cumpliendo todos los requerimientos solicitados por la interventoría. Ahora solo resta comprimir el proyecto y enviarlo a la plataforma.
+11.	Antes de comprimir la carpeta nombrada con su número de documento de identidad, donde se encuentran todos los archivos, la interventoría pide eliminar la carpeta “node_modules” del proyecto.
+12.	Ahora ya puede crear su archivo comprimido, el único formato permitido es .zip.
+13.	El archivo comprimido .zip debe conservar como nombre su número de documento de identidad para proceder a la carga en la plataforma.
+14.	Finalmente siga las instrucciones de la plataforma para recibir una evaluación.
+
+
