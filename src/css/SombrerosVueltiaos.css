@@ -21,6 +21,11 @@
   color: white;
   font-size: 40px;
 }
+/*contenedor de encabezados*/
+.h2notiequi
+{
+  color: #000000;
+}
 /*titulo encabezado de pagina*/
 .h1deheader
 {
@@ -58,8 +63,8 @@ header {
 /*fondo seccion footer*/
 .footer-section
 {
-	background:#6A4949;
-	font-size: 35px;
+	background:#000000;
+	font-size: 20px;
 	color: white;
 }
 /*centrar info en secciones*/
@@ -81,6 +86,7 @@ header {
 	display: inline-block;
 		width: 40%;
 		border:2px solid white;
+    border-radius: 10px;
 		  text-align: center;	  
 }
 /*contenedor flotante separador*/
@@ -95,6 +101,7 @@ header {
   height: auto;
 	width: 100%;
 	display: inline-block;  
+  border-radius: 10px;
 }
 /*efecto slide sobre imagen*/
 .overlay {
@@ -108,6 +115,7 @@ header {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+  border-radius: 10px;
 }
 /*efecto slide contenedor*/
 .container:hover .overlay {
