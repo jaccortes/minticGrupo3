@@ -25,6 +25,7 @@
 .h2notiequi
 {
   color: #000000;
+  padding-top: 20px;
 }
 /*titulo encabezado de pagina*/
 .h1deheader
@@ -58,14 +59,24 @@ header {
 /*fondo seccion equipo*/
 .team-section
 {
-	background:#7696C1;
+	background:#ffffff;
+  padding-bottom: 16px;
 }
 /*fondo seccion footer*/
-.footer-section
+#footer-section
 {
 	background:#000000;
-	font-size: 20px;
+  width: auto;
+  height: auto;
+	font-size: 13px;
 	color: white;
+}
+/*fonde se secciones footer*/
+#p-footer
+{
+  background: #040404;
+  width: 100%;
+  height: auto;
 }
 /*centrar info en secciones*/
 .team-section,
@@ -92,13 +103,13 @@ header {
 /*contenedor flotante separador*/
 .containernotisepara {
 	position: relative;
-	width: 20px;
+	width: 10px;
 	display: inline-block;
 	text-align: center;	  
 }
 /*imagen en linea o bloque*/
 .image {
-  height: auto;
+  height: 80%;
 	width: 100%;
 	display: inline-block;  
   border-radius: 10px;
@@ -191,4 +202,43 @@ li a:hover:not(.active) {
 /*menu activo*/
 .active {
   background-color: #04AA6D;
+}
+/*Contenedor contactos*/
+.container-cont
+{
+  display:flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+/*Margen de los contactos */
+.contacto-m{
+  padding: 0px;
+  position: relative;
+	display: inline-block;
+		width: 30%;
+		border:2px solid white;
+    border-radius: 5px;
+		  text-align: center;	  
+}
+/*Encabezado de contacto */
+.contacto
+{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+/*Informacion del contacto*/
+.titulo-contacto
+{
+  color: #fff;
+  padding: 5px;
+  top: 5px;
+}
+/*Copyright*/
+.titulo-footer{
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 2px;
 }
