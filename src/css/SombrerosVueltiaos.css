@@ -94,10 +94,9 @@
 /*contenedor de encabezados*/
 .h2notiequi
 {
-  background-image: url(../img/BanderaColombia.png);
-  font-size: 40px;
-  color: #000000;
-  padding-top: 88px;
+  size: 30%;
+  width: 330px;
+  padding-top: 50px;
 }
 /*titulo encabezado de pagina*/
 
