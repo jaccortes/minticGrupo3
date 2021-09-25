@@ -1,3 +1,16 @@
+
+@font-face{
+  font-family: 'OpenSans';
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+  font-family: 'Rakoon';
+  src: url(../Fonts/RoughRakoon_PERSONAL.ttf);
+}
+.Artesanales{
+  size: 30%;
+  width: 330px;
+}
 .internatitulo{
   text-align: center;	
   color: grey;
@@ -64,12 +77,13 @@
 }
 /*imagen del header*/
 .imagendelheader {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/sombrero0-1280x720.jpg);
+  background-image: url(../img/sombrero0-1280x720.jpg);
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 /*titulo secciones*/
 .h1notiequi
@@ -80,19 +94,19 @@
 /*contenedor de encabezados*/
 .h2notiequi
 {
+  background-image: url(../img/BanderaColombia.png);
+  font-size: 40px;
   color: #000000;
-  padding-top: 20px;
+  padding-top: 88px;
 }
 /*titulo encabezado de pagina*/
-.h1deheader
-{
-   font-size:60px;
-}
+
 /*cuerpo de la pagina*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
-    background-color: #35221F;
+  font-family: 'OpenSans';
+    background-image:url(../img/FONDORAYADO.jpg);
 	min-width:1200px;
+  background-attachment: fixed;
 }
 /*encabezado de la pagina*/
 header {
@@ -105,17 +119,18 @@ header {
 /*fondo seccion servicios*/
 .services-section
 {
-	background:#9CE5DD;
+	background: #F4D03F;
+  padding: 10px;
 }
 /*fondo seccion noticias*/
 .news-section
 {
-	background:purple;
+  background-image: url(../img/fondoSombreros.jpg);
 }
 /*fondo seccion equipo*/
 .team-section
 {
-	background:#ffffff;
+	background:#F4D03F;
   padding-bottom: 16px;
 }
 /*fondo seccion footer*/
@@ -145,16 +160,20 @@ header {
 .container {
   position: relative;
 	display: inline-block;
-		width: 33%;
+		width: 30%;
+    padding: 10px;
+    border: red 2px outset;
+    border-radius: 30px;
 }
 /*contenedor flotante noticias*/
 .containernoti {
   position: relative;
 	display: inline-block;
 		width: 40%;
-		border:2px solid white;
-    border-radius: 10px;
-		  text-align: center;	  
+		border: #1f478d 2px outset;
+    border-radius: 30px;
+		  text-align: center;
+      background-color: #F4D03F;	  
 }
 /*contenedor flotante separador*/
 .containernotisepara {
@@ -165,8 +184,8 @@ header {
 }
 /*imagen en linea o bloque*/
 .image {
-  height: 80%;
-	width: 100%;
+  height: 70%;
+	width: 90%;
 	display: inline-block;  
   border-radius: 10px;
 }
@@ -181,12 +200,13 @@ header {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
-  border-radius: 10px;
+  background-color: #1f478de3;
+  border-radius: 25px;
 }
 /*efecto slide contenedor*/
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 2;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.7), 0 25px 50px 0 rgba(0, 0, 0, 0.693);
 }
 /*div flotante columnas*/
 .cols {
@@ -223,12 +243,14 @@ header {
 /*formato de texto noticias*/
 .textonoti {
   font-size: 20px;
-  color: white;
+  color: black;
+  text-align: justify;
 }
 /*letra capital*/
 .capitaletra{
+  text-align: justify;
 	font-size: 40px;
-	  color: white;
+	  color: black;
 }
 /*menu lista*/
 ul {
@@ -236,7 +258,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.556);
 }
 /*menu*/
 li {
@@ -253,11 +275,11 @@ li a {
 }
 /*menu*/
 li a:hover:not(.active) {
-  background-color: #666;
+  background-color: rgba(102, 102, 102, 0.378);
 }
 /*menu activo*/
 .active {
-  background-color: #04AA6D;
+  background-color: #2200ffaf;
 }
 /*Contenedor contactos*/
 .container-cont
@@ -297,4 +319,31 @@ li a:hover:not(.active) {
   padding: 20px;
   position: relative;
   top: 2px;
+}
+
+
+button {
+  
+  background-color: #ECF0F1;
+  color: black;
+  padding: 7px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 7px;
+  border: #ECF0F1;
+}
+
+.containernoti, button {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.containernoti:hover{
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.7), 0 17px 50px 0 rgba(0, 0, 0, 0.693);
+}
+button:hover{
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7), 0 17px 50px 0 rgba(0, 0, 0, 0.693);
+  zoom: 108%;
 }
